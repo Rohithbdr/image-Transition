@@ -1,0 +1,33 @@
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1.5fr  1fr;
+    border: 2px solid;
+    max-width: 1200px;
+    height: 500px;
+
+}
+
+.img-cont {
+ position: relative;   
+}
+
+img {
+    transition: .12s;
+}
+.main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 3rem;
+    line-height: 35px;
+}
